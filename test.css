@@ -24,6 +24,9 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 
 .map-legend .PartyDem { background-color: #5696FF }
 .map-legend .PartyGOP { background-color: #FF6969 }
+.map-legend.national-general { font-family: Roboto,Helvetica,Arial,sans-serif }
+.map-legend.national-general .legend-section .legend-section-items .legend-item .legend-swatch.winner.PartyDem { background-color: #5696FF }
+.map-legend.national-general .legend-section .legend-section-items .legend-item .legend-swatch.winner.PartyGOP { background-color: #FF6969 }
 svg .biden { fill: #5696FF }
 svg .trump { fill: #FF6969 }
 svg .PartyDem { fill: #5696FF }

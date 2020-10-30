@@ -6,6 +6,10 @@
 .party-select .Dem.inactive { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
 .party-select .Dem.inactive:after { content: "DEMOCRAT"; color: #5f9ace }
 
+.bop .count.dem {
+    color: #5186b4;
+}
+
 svg .biden { fill: #5696FF }
 svg .trump { fill: #FF6969 }
 svg .PartyDem { fill: #5696FF }

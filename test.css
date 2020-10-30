@@ -1,12 +1,12 @@
 .mast .ap-logo { margin-right: .5em; height: 0em; width: 7em; background-image: url(https://static.particlenews.com/m/static/imgs/logo.png); background-size: 100% }
-/*
 .race-top-lines .party-select.Dem { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
 .race-top-lines .party-select.Dem:after { content: "DEMOCRAT"; color: #5696FF }
 .race-top-lines .party-select.Dem.selected { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #5696FF; border: 1px solid #5696FF }
 .party-select .Dem { padding: .25em .2em .1em; font-size: .65em; font-weight: 900; background-color: #5696FF; border: 1px solid #5696FF; display: inline-block; margin: 0 1em }
 .party-select .Dem.inactive { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
 .party-select .Dem.inactive:after { content: "DEMOCRAT"; color: #5f9ace }
-*/
+
+/*
 @font-face { font-family: GoodWeb-Book; src: url(fonts/GoodWeb-Book.5998920e2bc823fa60ffbde7f0a50b42.woff) format("woff") }
 @font-face { font-family: GoodWeb-Bold; src: url(fonts/GoodWeb-Bold.fd208db691242b49ffe7c69f51aa0ae4.woff) format("woff") }
 @font-face { font-family: GoodWeb-CondBook; src: url(fonts/GoodWeb-CondBook.695e850fc88aa86ec03ca79aea01befc.woff) format("woff") }
@@ -542,3 +542,4 @@ h2.state-headline { font-family: GoodWeb-Book; font-weight: 900; color: #444; ma
 .loading .loading-carto { margin: 30px 0 12px }
 .loading .loading-carto .loading-carto-rect { fill-opacity: .2; transition: fill-opacity .4s }
 .loading .loading-carto .loading-carto-rect.visible { fill-opacity: 1 }
+*/

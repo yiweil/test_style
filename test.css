@@ -1,3 +1,4 @@
+/*
 .mast .ap-logo { margin-right: .5em; height: 0em; width: 7em; background-image: url(https://static.particlenews.com/m/static/imgs/logo.png); background-size: 100% }
 .race-top-lines .party-select.Dem { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
 .race-top-lines .party-select.Dem:after { content: "DEMOCRAT"; color: #5696FF }
@@ -5,22 +6,22 @@
 .party-select .Dem { padding: .25em .2em .1em; font-size: .65em; font-weight: 900; background-color: #5696FF; border: 1px solid #5696FF; display: inline-block; margin: 0 1em }
 .party-select .Dem.inactive { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
 .party-select .Dem.inactive:after { content: "DEMOCRAT"; color: #5f9ace }
+*/
 
-/*
 @font-face { font-family: GoodWeb-Book; src: url(fonts/GoodWeb-Book.5998920e2bc823fa60ffbde7f0a50b42.woff) format("woff") }
 @font-face { font-family: GoodWeb-Bold; src: url(fonts/GoodWeb-Bold.fd208db691242b49ffe7c69f51aa0ae4.woff) format("woff") }
 @font-face { font-family: GoodWeb-CondBook; src: url(fonts/GoodWeb-CondBook.695e850fc88aa86ec03ca79aea01befc.woff) format("woff") }
 @font-face { font-family: GoodWeb-CondBold; src: url(fonts/GoodWeb-CondBold.55354ebad5af0bb8e4980f52c03d1c46.woff) format("woff") }
-body { font-family: GoodWeb-Book, Arial Narrow, Arial, sans-serif; background-color: #fff }
+body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fff }
 #app { max-width: 960px; margin: 0 auto }
-h1 { font-family: GoodWeb-CondBook; font-size: 1.2em; font-weight: 100; color: #444; margin: .3em 0 .4em; text-transform: uppercase }
+h1 { font-family: Roboto,Helvetica,Arial,sans-serif; font-size: 1.2em; font-weight: 100; color: #444; margin: .3em 0 .4em; text-transform: uppercase }
 .mast, h1 { text-align: center }
 .mast { margin: 0 auto }
 .mast .ap-logo, .mast h1 { display: inline-block }
 .mast .ap-logo { margin-right: .5em; height: 1.125em; width: .9375em; background-image: url(images/ap-logo.bb88df3f407e2fc371497eae7d537fe6.png); background-size: 100% }
 .map-summary { width: 100% }
 .note { text-align: left; font-size: .72rem; font-style: italic; color: #999 }
-.office-nav { padding: 0; display: flex; justify-content: center; font-family: GoodWeb-CondBook; list-style-type: none; position: relative; margin: .2em auto; text-transform: uppercase }
+.office-nav { padding: 0; display: flex; justify-content: center; font-family: Roboto,Helvetica,Arial,sans-serif; list-style-type: none; position: relative; margin: .2em auto; text-transform: uppercase }
 .office-nav .nav { margin-right: .5em }
 .office-nav .nav-button { display: flex; margin-right: .5em; justify-content: center; cursor: pointer }
 .office-nav .nav-button .label { opacity: .4 }
@@ -38,7 +39,7 @@ h1 { font-family: GoodWeb-CondBook; font-size: 1.2em; font-weight: 100; color: #
 .office-nav .office-list>.active a { text-decoration: none; color: #333; font-weight: 100 }
 .toggle { cursor: pointer; float: right; margin-top: -4.5em; position: relative; width: 4.5em; height: 4.5em; background-size: 4.5em auto; text-align: center }
 .toggle:focus { outline: none }
-.toggle>.toggle-label { font-family: GoodWeb-CondBook; position: absolute; bottom: .3em; color: #666; width: 100%; text-align: center; text-transform: uppercase; font-size: .7em }
+.toggle>.toggle-label { font-family: Roboto,Helvetica,Arial,sans-serif; position: absolute; bottom: .3em; color: #666; width: 100%; text-align: center; text-transform: uppercase; font-size: .7em }
 .toggle.geo { background-image: url(images/topo.96d7969e4cb3bd84ed295d99e4ee80e4.png) }
 .toggle.carto { background-image: url(images/geo.b0c6673e623faee1f0717f0537f153cc.png) }
 .race-top-lines { margin: 0 auto 1em; font-size: .8em; display: flex; justify-content: center }
@@ -48,7 +49,7 @@ h1 { font-family: GoodWeb-CondBook; font-size: 1.2em; font-weight: 100; color: #
 .race-top-lines .race-top-line { display: inline-block; margin: 0 1em; opacity: .5; text-align: center }
 .race-top-lines .race-top-line.selected { opacity: 1; border-bottom: 1px solid #666; padding-bottom: .2em }
 .race-top-lines a { text-decoration: none; display: block }
-.race-top-lines .top-line-link { font-family: GoodWeb-CondBold; font-weight: 900; list-style-type: none; color: #666; margin-left: .5em }
+.race-top-lines .top-line-link { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 900; list-style-type: none; color: #666; margin-left: .5em }
 .race-top-lines .top-line-link.inactive { text-decoration: none }
 .race-top-lines .top-line-link .candidate-names { margin-right: .3em }
 .race-top-lines .top-line-link .margin-text { display: inline-block }
@@ -349,7 +350,7 @@ svg .runoff { fill: #c800ff }
 .office-state .office-state-block { display: inline-block; vertical-align: top }
 .office-state .office-state-block.office-state-block-map { width: 10% }
 .office-state .office-state-block.office-state-block-table { width: calc(30% - 16px) }
-.other-races { font-family: GoodWeb-CondBook; font-weight: 100; font-size: 1em; margin-top: 0; margin-bottom: 1.5em }
+.other-races { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 100; font-size: 1em; margin-top: 0; margin-bottom: 1.5em }
 .other-races .other-races-group { margin-right: .4em }
 @media screen and (min-width:580px) {
 	.other-races .other-races-group { display: inline-block }
@@ -361,8 +362,8 @@ svg .runoff { fill: #c800ff }
 .topline-table .topline-table-content .topline-candidates { margin-bottom: .4em }
 .topline-table .results-note.progress-percentage { margin-top: .4em; padding-right: .1em; font-size: .7rem; text-align: right }
 .map-legend { text-align: center }
-.map-legend .legend-key { font-family: GoodWeb-CondBook; font-size: .9em; color: #666 }
-.map-legend .legend-label { font-family: GoodWeb-CondBook; display: inline-block; color: #777; font-size: .8em; margin: .2em .6em 0 .3em; vertical-align: top; line-height: 1em }
+.map-legend .legend-key { font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em; color: #666 }
+.map-legend .legend-label { font-family: Roboto,Helvetica,Arial,sans-serif; display: inline-block; color: #777; font-size: .8em; margin: .2em .6em 0 .3em; vertical-align: top; line-height: 1em }
 .map-legend .legend-swatch { display: inline-block; position: relative; height: 1em; width: 1em; overflow: hidden; background-color: grey; transform: scaleY(-1); -moz-transform: scaleY(-1); transform: rotate(180deg); -moz-transform: rotate(180deg) }
 .map-legend .legend-swatch.noVotes, .map-legend .legend-swatch.noVotes:before { background-color: #999 }
 .map-legend .legend-swatch.tied, .map-legend .legend-swatch.tied:before { background-color: #333 }
@@ -455,10 +456,10 @@ span.race-status.tied.white { background-image: url(images/tie.8a50bab6f47adb714
 .margin-text { text-transform: uppercase; font-size: .7rem; color: #aaa }
 .margin-text.simple { color: inherit }
 .watermark { background: url(images/test.88a0342da0e6f8a074a8565c66badf30.png); z-index: -100; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh }
-.special-races { font-family: GoodWeb-CondBook; font-weight: 100; font-size: 1em; margin-top: 0; margin-bottom: 1.5em }
+.special-races { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 100; font-size: 1em; margin-top: 0; margin-bottom: 1.5em }
 .special-races a { color: inherit }
 .special-races .special-race-link { margin: 0 .2em }
-h2.state-headline { font-family: GoodWeb-Book; font-weight: 900; color: #444; margin: .5em 0; font-size: 1.2em }
+h2.state-headline { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 900; color: #444; margin: .5em 0; font-size: 1.2em }
 @media screen and (min-width:580px) {
 	h2.state-headline { font-size: 1.7em }
 }
@@ -468,21 +469,21 @@ h2.state-headline { font-family: GoodWeb-Book; font-weight: 900; color: #444; ma
 .race-chips a.race-chip.no-lead { color: #000; background-color: #b5b5b6 }
 .race-chips a.race-chip .ruid { margin-right: 4px }
 .bop { width: 100%; margin-bottom: 1em }
-.bop .label { display: inline; font-family: GoodWeb-CondBold; font-size: 1.3em; line-height: .6em }
+.bop .label { display: inline; font-family: Roboto,Helvetica,Arial,sans-serif; font-size: 1.3em; line-height: .6em }
 .bop .label.dem { float: left }
 .bop .label.gop { float: right }
 .bop .ind { margin-top: .3em; font-size: .8em; color: grey }
 .bop .ind.dem { float: left }
 .bop .ind.gop { float: right }
-.bop .bop-tooltip { text-align: center; padding: .1rem .3rem; position: absolute; z-index: 100; transform: translate(-50%, 2.3em); background-color: #fff; font-family: GoodWeb-CondBold; font-size: .9em; color: #666; border: 1px solid #ebebeb; opacity: 0; transition: opacity .2s }
+.bop .bop-tooltip { text-align: center; padding: .1rem .3rem; position: absolute; z-index: 100; transform: translate(-50%, 2.3em); background-color: #fff; font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em; color: #666; border: 1px solid #ebebeb; opacity: 0; transition: opacity .2s }
 .bop .bop-tooltip.visible { opacity: 1 }
-.bop .bop-tooltip>.state { font-family: GoodWeb-CondBook; font-size: .9em }
+.bop .bop-tooltip>.state { font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em }
 .bop .bop-tooltip>.dem { color: #5186b4 }
 .bop .bop-tooltip>.gop { color: #c43d49 }
 .bop .bop-tooltip>.divider { color: #666; margin: 0 .3em }
 .bop .bop-tooltip>.unallocated { color: #999 }
 .bop .ev-label { font-size: .9em; color: grey; margin-left: .2em; display: inline-block }
-.bop .count { font-size: 2.5em; font-family: GoodWeb-Bold }
+.bop .count { font-size: 2.5em; font-family: Roboto,Helvetica,Arial,sans-serif }
 .bop .count.dem { color: #5186b4; display: inline }
 .bop .count.gop { color: #c43d49 }
 .bop .vote-wrapper { height: 1.2em }
@@ -511,12 +512,12 @@ h2.state-headline { font-family: GoodWeb-Book; font-weight: 900; color: #444; ma
 .bop .art.gop.pres.y2016, .bop .art.gop.pres.y2020, .bop .art.gop.pres.y2116 { background-image: url(images/trump.92978fbac914888d9cfc422f6e05a846.jpg) }
 .bop .art.gop.party { background-image: url(images/party-gop.c571290b1c437c30db280f0486301c9b.png) }
 .nav { display: block }
-.nav .bop-summary { border: 1px solid #ebebeb; position: relative; display: block; width: 3.5em; margin: 0 auto; padding: .1em .3em; border-radius: .8em; text-align: center; font-family: GoodWeb-CondBold; font-size: .9em }
+.nav .bop-summary { border: 1px solid #ebebeb; position: relative; display: block; width: 3.5em; margin: 0 auto; padding: .1em .3em; border-radius: .8em; text-align: center; font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em }
 .nav .bop-summary>.dem { color: #5186b4 }
 .nav .bop-summary>.gop { color: #c43d49 }
 .nav .bop-summary>.divider { color: #666; margin: 0 .3em }
 .race-call-alerts { position: absolute; top: 0; left: 0; width: 100% }
-.race-call-alerts .race-call-label { color: #666; display: flex; justify-content: center; align-items: center; font-family: GoodWeb-CondBold, Arial Narrow, Arial, sans-serif }
+.race-call-alerts .race-call-label { color: #666; display: flex; justify-content: center; align-items: center; font-family: Roboto,Helvetica,Arial,sans-serif }
 .race-call-alerts span.race-status.runoff, .race-call-alerts span.race-status.winner { display: inline-block; width: 1em; height: 1em; border-radius: 50%; vertical-align: sub; margin-right: .3em }
 .race-call-alerts span.race-status.winner { background-color: green; border: 1px solid green; background-image: url(images/winner.f85b847e26bc1adc60b327808f84831d.svg); background-size: cover }
 .race-call-alerts span.race-status.runoff { background-color: #c800ff; border: 1px solid #c800ff; background-image: url(images/runoff.2299687140b8a615a309fba1b32a3b7d.svg); background-size: cover }
@@ -524,17 +525,17 @@ h2.state-headline { font-family: GoodWeb-Book; font-weight: 900; color: #444; ma
 .race-call-alerts .race-call-alert-selection .race-call-alert { padding: 2px 4px; border: 1px solid #ebebeb; border-radius: 4px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06); background-color: #fff; display: inline-block; position: relative; -moz-transform: translateY(-50px); -webkit-transform: translateY(-50px); -o-transform: translateY(-50px); -ms-transform: translateY(-50px); transform: translateY(-50px); -webkit-transform: scale(.2); -webkit-transition-timing-function: cubic-bezier(.515, .01, 0, 1); -webkit-transition-timing-function: cubic-bezier(.515, .01, 0, 1.305); -moz-transition-timing-function: cubic-bezier(.515, .01, 0, 1.305); -o-transition-timing-function: cubic-bezier(.515, .01, 0, 1.305); transition-timing-function: cubic-bezier(.515, .01, 0, 1.305); transition-duration: .3s }
 .race-call-alerts .race-call-alert-selection .race-call-alert.in { -moz-transform: translate(0); -webkit-transform: translate(0); -o-transform: translate(0); -ms-transform: translate(0); transform: translate(0) }
 .race-call-alerts .race-call-alert-selection .race-call-alert a { display: inline-block; color: inherit; text-decoration: none }
-.race-call-alerts .race-call-alert-selection .race-call-alert a .race-call-candidates { font-family: GoodWeb-CondBold, Arial Narrow, Arial, sans-serif }
-.race-call-alerts .race-call-alert-selection .race-call-alert a .race-call-details { font-family: GoodWeb-CondBook, Arial Narrow, Arial, sans-serif; color: #999 }
+.race-call-alerts .race-call-alert-selection .race-call-alert a .race-call-candidates { font-family: Roboto,Helvetica,Arial,sans-serif }
+.race-call-alerts .race-call-alert-selection .race-call-alert a .race-call-details { font-family: Roboto,Helvetica,Arial,sans-serif; color: #999 }
 .race-call-alerts .race-call-alert-selection .race-call-alert-selector { width: 24px; height: 42px; margin: 0 4px }
 .race-call-alerts .race-call-alert-selection .race-call-alert-selector.next, .race-call-alerts .race-call-alert-selection .race-call-alert-selector.previous { cursor: pointer; border: 1px solid #ebebeb; border-radius: 4px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06); background-color: #fff }
 .race-call-alerts .race-call-alert-selection .race-call-alert-selector.previous { background-repeat: no-repeat; background-position: 50%; background-image: url(images/navigate_before-24px.75589b2756235581dae46292357cee00.svg) }
 .race-call-alerts .race-call-alert-selection .race-call-alert-selector.next { background-image: url(images/navigate_next-24px.22c1f3d98509b4e20593860b6410a6ad.svg); background-repeat: no-repeat; background-position: 50% }
-.special-select { display: block; font-size: 13px; font-family: GoodWeb-Book; color: #888; line-height: 1em; padding: .45em 1.8em .4em .8em; box-sizing: border-box; margin: 0; border: 1px solid #aaa; border-radius: 1em; -moz-appearance: none; -webkit-appearance: none; appearance: none; background-color: #fff; background-image: url(images/caret.a57632b2d134405248e2ec7cb20e63ff.svg); background-repeat: no-repeat, repeat; background-position: right .7em top 50%, 0 0; background-size: .65em auto, 100% }
+.special-select { display: block; font-size: 13px; font-family: Roboto,Helvetica,Arial,sans-serif; color: #888; line-height: 1em; padding: .45em 1.8em .4em .8em; box-sizing: border-box; margin: 0; border: 1px solid #aaa; border-radius: 1em; -moz-appearance: none; -webkit-appearance: none; appearance: none; background-color: #fff; background-image: url(images/caret.a57632b2d134405248e2ec7cb20e63ff.svg); background-repeat: no-repeat, repeat; background-position: right .7em top 50%, 0 0; background-size: .65em auto, 100% }
 .special-select::-ms-expand { display: none }
 .special-select:hover { border-color: #888 }
 .special-select:focus { border: 1px solid #aaa; outline: none }
-.special-select option { font-weight: 400; background-color: red; font-family: GoodWeb-Book }
+.special-select option { font-weight: 400; background-color: red; font-family: Roboto,Helvetica,Arial,sans-serif }
 .expected-vote-summary .expected-vote-chatter { text-align: left; font-size: .82rem; font-style: italic; color: #999 }
 .expected-vote-summary .expected-vote-chatter .eevp { color: #2c2c2c; font-weight: 400 }
 .expected-vote-summary .expected-vote-pie { margin: .2em; cursor: pointer }
@@ -542,4 +543,3 @@ h2.state-headline { font-family: GoodWeb-Book; font-weight: 900; color: #444; ma
 .loading .loading-carto { margin: 30px 0 12px }
 .loading .loading-carto .loading-carto-rect { fill-opacity: .2; transition: fill-opacity .4s }
 .loading .loading-carto .loading-carto-rect.visible { fill-opacity: 1 }
-*/

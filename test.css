@@ -14,6 +14,7 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 .nav .bop-summary>.gop { color: #FF6969 }
 .office-nav .nav-button .nav-label .dropdown-caret { float: right; content: ""; display: block; width: 0; height: 0; -moz-transform: scale(.9999); border-color: #aaa transparent transparent; border-style: solid; border-width: .3em .3em 0; margin-left: .2em; margin-top: .4em }
 .office-nav .nav-button .nav-label .dropdown-caret.bop { display: none }
+.office-nav { padding: 0; display: flex; justify-content: center; font-family: Roboto,Helvetica,Arial,sans-serif; list-style-type: none; position: relative; margin: .2em auto }
 
 .bop .count.dem { color: #5696FF }
 .bop .count.gop { color: #FF6969 }

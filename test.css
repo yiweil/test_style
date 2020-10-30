@@ -26,6 +26,8 @@ svg .biden { fill: #5696FF }
 svg .trump { fill: #FF6969 }
 svg .PartyDem { fill: #5696FF }
 svg .PartyGOP { fill: #FF6969 }
+svg.nationalGeneral .path.path-S.winner.PartyGOP { fill: #FF6969 }
+svg.nationalGeneral .path.path-S.winner.PartyDem { fill: #5696FF }
 .results-table .PartyDem, .state-results-block-table .PartyDem { background-color: #5696FF }
 .results-table .PartyGOP, .state-results-block-table .PartyGOP { background-color: #FF6969 }
 

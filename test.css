@@ -6,14 +6,25 @@
 .party-select .Dem.inactive { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
 .party-select .Dem.inactive:after { content: "DEMOCRAT"; color: #5f9ace }
 
-.bop .count.dem {
-    color: #5696FF;
-}
+.nav .bop-summary { position: relative; display: block; width: 3.5em; margin: 0 auto; padding: .1em .3em; border-radius: .8em; text-align: center; font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em }
+.nav .bop-summary>.dem { color: #5696FF }
+.nav .bop-summary>.gop { color: #FF6969 }
 
+.bop .count.dem { color: #5696FF }
+.bop .count.gop { color: #FF6969 }
+
+.bop .bop-tooltip>.state { font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em }
+.bop .bop-tooltip>.dem { color: #5696FF }
+.bop .bop-tooltip>.gop { color: #FF6969 }
+
+.map-legend .PartyDem { background-color: #5696FF }
+.map-legend .PartyGOP { background-color: #FF6969 }
 svg .biden { fill: #5696FF }
 svg .trump { fill: #FF6969 }
 svg .PartyDem { fill: #5696FF }
 svg .PartyGOP { fill: #FF6969 }
+.results-table .PartyDem, .state-results-block-table .PartyDem { background-color: #5696FF }
+.results-table .PartyGOP, .state-results-block-table .PartyGOP { background-color: #FF6969 }
 
 /*
 @font-face { font-family: GoodWeb-Book; src: url(fonts/GoodWeb-Book.5998920e2bc823fa60ffbde7f0a50b42.woff) format("woff") }

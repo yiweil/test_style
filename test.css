@@ -1,5 +1,5 @@
 .watermark { background: none }
-body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fff }
+body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa }
 
 .mast .ap-logo { margin-right: .5em; height: 0em; width: 7em; background-image: url(https://static.particlenews.com/m/static/imgs/logo.png); background-size: 100% }
 .race-top-lines .party-select.Dem { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
@@ -12,6 +12,8 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fff }
 .nav .bop-summary { position: relative; display: block; width: 3.5em; margin: 0 auto; padding: .1em .3em; border-radius: .8em; text-align: center; font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em }
 .nav .bop-summary>.dem { color: #5696FF }
 .nav .bop-summary>.gop { color: #FF6969 }
+.office-nav .nav-button .nav-label .dropdown-caret { float: right; content: ""; display: block; width: 0; height: 0; -moz-transform: scale(.9999); border-color: #aaa transparent transparent; border-style: solid; border-width: .3em .3em 0; margin-left: .2em; margin-top: .4em }
+.office-nav .nav-button .nav-label .dropdown-caret.bop { display: none }
 
 .bop .count.dem { color: #5696FF }
 .bop .count.gop { color: #FF6969 }

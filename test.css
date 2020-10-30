@@ -1,3 +1,4 @@
+.watermark { background: none }
 body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fff }
 
 .mast .ap-logo { margin-right: .5em; height: 0em; width: 7em; background-image: url(https://static.particlenews.com/m/static/imgs/logo.png); background-size: 100% }

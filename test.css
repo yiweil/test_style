@@ -8,7 +8,7 @@ h1 { font-family: GoodWeb-CondBook; font-size: 1.2em; font-weight: 100; color: #
 .mast, h1 { text-align: center }
 .mast { margin: 0 auto }
 .mast .ap-logo, .mast h1 { display: inline-block }
-.mast .ap-logo { margin-right: .5em; height: 1.125em; width: .9375em; background-image: url(images/ap-logo.bb88df3f407e2fc371497eae7d537fe6.png); background-size: 100% }
+.mast .ap-logo { margin-right: .5em; height: 0em; width: .9375em; background-image: url(images/ap-logo.bb88df3f407e2fc371497eae7d537fe6.png); background-size: 100% }
 .map-summary { width: 100% }
 .note { text-align: left; font-size: .72rem; font-style: italic; color: #999 }
 .office-nav { padding: 0; display: flex; justify-content: center; font-family: GoodWeb-CondBook; list-style-type: none; position: relative; margin: .2em auto; text-transform: uppercase }

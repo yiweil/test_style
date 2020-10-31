@@ -25,7 +25,7 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 .office-nav .nav-button .nav-label .dropdown-caret.bop { display: none }
 .office-nav .nav-button>div { font-size: 1em; font-weight: 800 }
 @media screen and (min-width:580px) { .office-nav .nav-button>div { font-size: 1em } }
-.office-nav .office-list { text-transform: none; max-height: 19.5em; margin-top: 2em; z-index: 10; background-color: #fff; padding: .8em; list-style-type: none; position: absolute; overflow: auto; font-size: .9em; line-height: 2.4em; border-radius: 12px; box-shadow: 4px 12px 20px #ccc }
+.office-nav .office-list { text-transform: none; max-height: 19.5em; margin-top: 2em; z-index: 10; background-color: #fff; padding: .8em; list-style-type: none; position: absolute; overflow: auto; font-size: 1em; line-height: 2.6em; border-radius: 12px; box-shadow: 4px 12px 20px #ccc }
 .office-nav .office-list>.inactive { color: #ccc; font-weight: 400 }
 .office-nav .office-list>.active a { text-decoration: none; color: #333; font-weight: 600 }
 

@@ -94,6 +94,15 @@ svg.nationalGeneral .path.path-C.trump, svg.nationalGeneral .path.path-P.trump {
 
 .expected-vote-summary .expected-vote-chatter { text-align: left; font-size: .82rem; font-style: italic; color: #999; visibility: hidden }
 
+svg.nationalGeneral .path.path-S.runoff { fill: #b283ff }
+svg.nationalGeneral .path.path-C.Dem1, svg.nationalGeneral .path.path-P.Dem1 { fill: #5696FF }
+svg.nationalGeneral .path.path-C.GOP1, svg.nationalGeneral .path.path-P.GOP1 { fill: #FF6969 }
+svg.nationalGeneral .path.path-C.Dem1, svg.nationalGeneral .path.path-P.Dem5 { fill: #5696FF } /* special elections */
+svg.nationalGeneral .path.path-C.GOP5, svg.nationalGeneral .path.path-P.GOP5 { fill: #FF6969 } /* special elections */
+.results-table-container .results-table .Dem1 { background-color: #5696FF }
+.results-table-container .results-table .GOP1 { background-color: #FF6969 }
+.results-table-container .results-table .Dem6 { background-color: #5696FF } /* special elections */
+.results-table-container .results-table .GOP6 { background-color: #FF6969 } /* special elections */
 /*
 @font-face { font-family: GoodWeb-Book; src: url(fonts/GoodWeb-Book.5998920e2bc823fa60ffbde7f0a50b42.woff) format("woff") }
 @font-face { font-family: GoodWeb-Bold; src: url(fonts/GoodWeb-Bold.fd208db691242b49ffe7c69f51aa0ae4.woff) format("woff") }

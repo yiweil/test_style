@@ -1,5 +1,5 @@
 .watermark { background: none }
-body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa }
+body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa; margin: 0; padding: 0 }
 
 .mast .ap-logo { margin-right: .5em; height: 0em; width: 7em; background-image: url(https://static.particlenews.com/m/static/imgs/logo.png); background-size: 100% }
 .race-top-lines .party-select.Dem { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }

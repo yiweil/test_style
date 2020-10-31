@@ -71,6 +71,17 @@ h2.state-headline { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight:
 .other-races .other-races-group .link { margin: 0 .2em }
 .other-races .other-races-group .link a { color: inherit }
 
+svg .city text { font-size: 1em; font-weight: 400 }
+svg.nationalGeneral .path.path-C.biden, svg.nationalGeneral .path.path-P.biden { fill: #2D8DFF }
+svg.nationalGeneral .path.path-C.trump, svg.nationalGeneral .path.path-P.trump { fill: #EF3636 }
+
+.ev-available { color: #242424; margin-bottom: 1em; font-size: 1em; font-weight: 600 }
+.results-table-container .results-table td, .results-table-container .results-table th { padding-top: .8em; padding-bottom: .8em }
+.results-table-container .results-table { background-color: #fafafa; font-size: 1em }
+.results-table-container .results-table thead { width: 100%; font-size: .8em; color: #9b9b9b; text-transform: uppercase; vertical-align: middle }
+.results-table-container .results-table .biden { background-color: #5696FF }
+.results-table-container .results-table .trump { background-color: #FF6969 }
+
 /*
 @font-face { font-family: GoodWeb-Book; src: url(fonts/GoodWeb-Book.5998920e2bc823fa60ffbde7f0a50b42.woff) format("woff") }
 @font-face { font-family: GoodWeb-Bold; src: url(fonts/GoodWeb-Bold.fd208db691242b49ffe7c69f51aa0ae4.woff) format("woff") }
@@ -284,7 +295,7 @@ svg .path.path-D.no-race { cursor: default }
 svg text.path-label { font-size: 1em; fill: #fff; stroke-opacity: 0; dominant-baseline: central }
 svg text.path-label.no-race { opacity: .4 }
 svg .city { pointer-events: none }
-svg .city text { font-size: 1em; font-weight: 100 }
+
 svg .city circle { stroke: #222; stroke-width: .1em }
 @media (hover:hover) {
 	svg.selected .path:hover { stroke: inherit }

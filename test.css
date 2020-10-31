@@ -48,12 +48,16 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 .map-legend.national-general { font-family: Roboto,Helvetica,Arial,sans-serif }
 .map-legend.national-general .legend-section .legend-section-items .legend-item .legend-swatch.winner.PartyDem { background-color: #5696FF }
 .map-legend.national-general .legend-section .legend-section-items .legend-item .legend-swatch.winner.PartyGOP { background-color: #FF6969 }
+.map-legend.national-general .legend-section .legend-section-items .legend-item .legend-swatch.uncalled.PartyDem { background-color: #a8c8fd }
+.map-legend.national-general .legend-section .legend-section-items .legend-item .legend-swatch.uncalled.PartyGOP { background-color: #FCC0C0 }
 svg .biden { fill: #5696FF }
 svg .trump { fill: #FF6969 }
 svg .PartyDem { fill: #5696FF }
 svg .PartyGOP { fill: #FF6969 }
 svg.nationalGeneral .path.path-S.winner.PartyGOP { fill: #FF6969 }
+svg.nationalGeneral .path.path-S.uncalled.PartyGOP { fill: #FCC0C0 }
 svg.nationalGeneral .path.path-S.winner.PartyDem { fill: #5696FF }
+svg.nationalGeneral .path.path-S.uncalled.PartyDem { fill: #a8c8fd }
 .results-table .PartyDem, .state-results-block-table .PartyDem { background-color: #5696FF }
 .results-table .PartyGOP, .state-results-block-table .PartyGOP { background-color: #FF6969 }
 

@@ -62,15 +62,11 @@ svg.nationalGeneral .path.path-S.uncalled.PartyDem { fill: #a8c8fd }
 .results-table .PartyGOP, .state-results-block-table .PartyGOP { background-color: #FF6969 }
 
 h2.state-headline { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 700; color: #242424; margin: .5em 0; font-size: 1.2em }
-@media screen and (min-width:580px) {
-	h2.state-headline { font-size: 1.7em }
-}
+@media screen and (min-width:580px) { h2.state-headline { font-size: 1.7em } }
 
 .other-races { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 400; font-size: 1em; margin-top: 0; margin-bottom: 1.5em }
 .other-races .other-races-group { margin-right: .4em }
-@media screen and (min-width:580px) {
-	.other-races .other-races-group { display: inline-block }
-}
+@media screen and (min-width:580px) { .other-races .other-races-group { display: inline-block } }
 .other-races .other-races-group .label { opacity: .6 }
 .other-races .other-races-group .link { margin: 0 .2em }
 .other-races .other-races-group .link a { color: #666 }
@@ -94,6 +90,8 @@ svg.nationalGeneral .path.path-C.trump, svg.nationalGeneral .path.path-P.trump {
 
 .expected-vote-summary .expected-vote-chatter { text-align: left; font-size: .82rem; font-style: italic; color: #999; visibility: hidden }
 
+.custom-select__value-container { width: 14em; height: 2.1em }
+.select-boundary { margin-right: .4em }
 svg.nationalGeneral .path.path-S.runoff { fill: #b283ff }
 svg.nationalGeneral .path.path-C.Dem1, svg.nationalGeneral .path.path-P.Dem1 { fill: #5696FF }
 svg.nationalGeneral .path.path-C.GOP1, svg.nationalGeneral .path.path-P.GOP1 { fill: #FF6969 }
@@ -101,12 +99,19 @@ svg.nationalGeneral .path.path-C.Dem1, svg.nationalGeneral .path.path-P.Dem5 { f
 svg.nationalGeneral .path.path-C.GOP5, svg.nationalGeneral .path.path-P.GOP5 { fill: #FF6969 } /* special elections */
 svg.nationalGeneral .path.path-C.Dem6, svg.nationalGeneral .path.path-P.Dem6 { fill: #5696FF } /* special elections */
 svg.nationalGeneral .path.path-C.GOP5, svg.nationalGeneral .path.path-P.GOP6 { fill: #FF6969 } /* special elections */
+
 .results-table-container .results-table .Dem1 { background-color: #5696FF }
 .results-table-container .results-table .GOP1 { background-color: #FF6969 }
 .results-table-container .results-table .Dem5 { background-color: #5696FF } /* special elections */
 .results-table-container .results-table .GOP5 { background-color: #FF6969 } /* special elections */
 .results-table-container .results-table .Dem6 { background-color: #5696FF } /* special elections */
 .results-table-container .results-table .GOP6 { background-color: #FF6969 } /* special elections */
+
+.results-table .PartyGOP, .state-results-block-table .PartyGOP { background-color: #ffbdbd }
+.results-table .PartyGOP, .state-results-block-table .PartyDem { background-color: #A6C8FF }
+.race-chips .PartyGOP { border-color: #FF6969 }
+.race-chips .PartyDem { border-color: #5696FF }
+.race-chips { font-size: 1em }
 /*
 @font-face { font-family: GoodWeb-Book; src: url(fonts/GoodWeb-Book.5998920e2bc823fa60ffbde7f0a50b42.woff) format("woff") }
 @font-face { font-family: GoodWeb-Bold; src: url(fonts/GoodWeb-Bold.fd208db691242b49ffe7c69f51aa0ae4.woff) format("woff") }
@@ -424,7 +429,7 @@ svg .runoff { fill: #c800ff }
 	.party-select .GOP.inactive { padding: .2em .4em .1em }
 }
 .party-select .GOP.inactive:after { content: "REPUBLICAN"; color: #FF6969 }
-.custom-select__value-container { width: 12em; height: 2.1em }
+
 .custom-select__control { font-size: .8em; color: #727272; background-color: transparent; border-radius: 1em !important; height: 1em !important; min-height: 2em !important; border: 1px solid #b5b5b5 !important }
 .custom-select__option { font-size: .8em !important; color: #727272; margin: -.4em 0 !important }
 .custom-select__control--is-focused { border-color: inherit !important; -webkit-box-shadow: none !important; box-shadow: none !important }

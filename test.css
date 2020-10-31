@@ -15,6 +15,21 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 .office-nav .nav-button .nav-label .dropdown-caret { float: right; content: ""; display: block; width: 0; height: 0; -moz-transform: scale(.9999); border-color: #aaa transparent transparent; border-style: solid; border-width: .3em .3em 0; margin-left: .2em; margin-top: .4em }
 .office-nav .nav-button .nav-label .dropdown-caret.bop { display: none }
 .office-nav { padding: 0; display: flex; justify-content: center; font-family: Roboto,Helvetica,Arial,sans-serif; list-style-type: none; position: relative; margin: .2em auto }
+.office-nav .nav { margin-right: .5em }
+.office-nav .nav-button { display: flex; margin-right: .5em; justify-content: center; cursor: pointer }
+.office-nav .nav-button .label { opacity: .5 }
+.office-nav .nav-button .label>:link { color: #000; text-decoration: none }
+.office-nav .nav-button.selected .label { opacity: 1 }
+.office-nav .nav-button .nav-label { display: flex }
+.office-nav .nav-button .nav-label .dropdown-caret { float: right; content: ""; display: block; width: 0; height: 0; -moz-transform: scale(.9999); border-color: #aaa transparent transparent; border-style: solid; border-width: .4em .4em 0; margin-left: .2em; margin-top: .4em }
+.office-nav .nav-button .nav-label .dropdown-caret.bop { display: none }
+.office-nav .nav-button>div { font-size: 1em; font-weight: 800 }
+@media screen and (min-width:580px) {
+	.office-nav .nav-button>div { font-size: 1.2em }
+}
+.office-nav .office-list { text-transform: none; max-height: 19.5em; margin-top: 2em; z-index: 10; background-color: #fff; border: 1px solid #ebebeb; padding: .4em; list-style-type: none; position: absolute; overflow: auto; line-height: .8em }
+.office-nav .office-list>.inactive { color: #999; font-weight: 10 }
+.office-nav .office-list>.active a { text-decoration: none; color: #333; font-weight: 100 }
 
 .bop .count.dem { color: #5696FF }
 .bop .count.gop { color: #FF6969 }

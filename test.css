@@ -77,10 +77,11 @@ svg.nationalGeneral .path.path-C.trump, svg.nationalGeneral .path.path-P.trump {
 
 .ev-available { color: #242424; margin-bottom: 1em; font-size: 1em; font-weight: 600 }
 .results-table-container .results-table td, .results-table-container .results-table th { padding-top: .8em; padding-bottom: .8em }
-.results-table-container .results-table { background-color: #fafafa; font-size: 1em }
-.results-table-container .results-table thead { width: 100%; font-size: .8em; color: #9b9b9b; text-transform: uppercase; vertical-align: middle }
+.results-table-container .results-table { background-color: #fff; font-size: 1em }
+.results-table-container .results-table thead { width: 100%; font-size: .8em; color: #9b9b9b; text-transform: uppercase; vertical-align: middle; background-color: #fafafa }
 .results-table-container .results-table .biden { background-color: #5696FF }
 .results-table-container .results-table .trump { background-color: #FF6969 }
+.results-table-container .results-notes .results-note { background-color: #fafafa; margin-top: .6em }
 
 /*
 @font-face { font-family: GoodWeb-Book; src: url(fonts/GoodWeb-Book.5998920e2bc823fa60ffbde7f0a50b42.woff) format("woff") }

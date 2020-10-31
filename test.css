@@ -40,7 +40,7 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 .bop .bar .hover { opacity: .6 }
 .bop .bar .dem { float: left; height: 100%; background-color: #5696FF }
 .bop .bar .divider { height: 1.5em; border-left: 2px solid #000; position: absolute; width: 1px; margin-top: -.2em; left: 50% }
-.bop .bar .majority { text-align: center; font-size: .8em; height: 1.2em; position: absolute; width: 0.8em; color: #000; margin-top: -2.8em; line-height: 1.2em; left: calc(50% - 3em); text-transform: uppercase }
+.bop .bar .majority { text-align: center; font-size: .8em; height: 1.2em; position: absolute; width: 13.8em; color: #000; margin-top: -3em; line-height: 1.2em; left: calc(50% - 7em); text-transform: uppercase }
 .bop .bar .gop { float: right; height: 100%; background-color: #FF6969 }
 
 .map-legend .PartyDem { background-color: #5696FF }

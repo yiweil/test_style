@@ -108,7 +108,7 @@ svg.nationalGeneral .path.path-C.GOP5, svg.nationalGeneral .path.path-P.GOP6 { f
 .results-table-container .results-table .GOP6 { background-color: #FF6969 } /* special elections */
 
 .results-table .PartyGOP, .state-results-block-table .PartyGOP { background-color: #ffbdbd }
-.results-table .PartyGOP, .state-results-block-table .PartyDem { background-color: #A6C8FF }
+.results-table .PartyGOP, .state-results-block-table .PartyDem { background-color: #BAD4FF }
 .race-chips .PartyGOP { border-color: #FF6969 }
 .race-chips .PartyDem { border-color: #5696FF }
 .race-chips { font-size: 1em }

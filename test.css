@@ -30,6 +30,7 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 .bop .count.dem { color: #5696FF }
 .bop .count.gop { color: #FF6969 }
 
+.bop .bop-tooltip { box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.1); border-radius: .4em }
 .bop .bop-tooltip>.state { font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em }
 .bop .bop-tooltip>.dem { color: #5696FF }
 .bop .bop-tooltip>.gop { color: #FF6969 }

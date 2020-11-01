@@ -104,7 +104,7 @@ svg.nationalGeneral .path.path-C.GOP5, svg.nationalGeneral .path.path-P.GOP6 { f
 .results-table-container .results-table .GOP5 { background-color: #FF6969 } /* special elections */
 .results-table-container .results-table .Dem6 { background-color: #5696FF } /* special elections */
 .results-table-container .results-table .GOP6 { background-color: #FF6969 } /* special elections */
-.results-tooltip-content { background-color: #fafafa; padding: .8em; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); border-radius: 1em }
+.results-tooltip-content { background-color: #fafafa; padding: .8em; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); border-radius: .6em }
 .results-tooltip-content .main-tooltip-content .tooltip-label { color: #242424; opacity: 1}
 
 .results-table .PartyGOP, .state-results-block-table .PartyGOP { background-color: #ffbdbd }

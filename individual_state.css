@@ -108,4 +108,5 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
 .race-title { font-weight: 600 }
 .state-results-block .race-description { margin-top: .8em; line-height: 1.4em }
 
-.results-table-container .results-table tr.candidate:not(.winner):first-child>td { padding-left: .6em; padding-right: .6em; padding_top: .8em; padding_bottom: .6em}
+.results-table-container .results-table tr.candidate:not(.winner):first-child>td { padding-left: .6em; padding-right: .6em; padding_top: .8em; padding_bottom: .6em }
+.results-table-container .results-table tr.candidate:not(.winner)~tr.candidate>td { padding-left: .4em }

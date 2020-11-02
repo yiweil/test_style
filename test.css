@@ -128,7 +128,7 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
   h2.state-headline { font-size: 1.2em }
 }
 
-/* Viewports 580 and up */
-@media screen and (max-width:768px) {
+/* Viewports 768 and up */
+@media screen and (min-width:768px) {
   .office-nav .nav-button>div { font-size: 1.2em }
 }

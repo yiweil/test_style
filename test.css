@@ -132,3 +132,6 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
 @media screen and (min-width:768px) {
   .office-nav .nav-button>div { font-size: 1.2em }
 }
+
+.results-table-container .results-table tr.candidate:not(.winner):first-child>td { padding-left: .6em; padding-right: .6em; padding-top: .8em; padding-bottom: .6em }
+.results-table-container .results-table tr.candidate:not(.winner)~tr.candidate>td { padding-left: .6em }

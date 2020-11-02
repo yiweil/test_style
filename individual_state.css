@@ -83,6 +83,8 @@ svg.nationalGeneral .path.path-C.GOP5, svg.nationalGeneral .path.path-P.GOP5 { f
 svg.nationalGeneral .path.path-C.Dem6, svg.nationalGeneral .path.path-P.Dem6 { fill: #5696FF } /* special elections */
 svg.nationalGeneral .path.path-C.GOP5, svg.nationalGeneral .path.path-P.GOP6 { fill: #FF6969 } /* special elections */
 
+.state-results-block-map { display: none }
+
 .results-table-container .results-table .Dem1 { background-color: #5696FF }
 .results-table-container .results-table .GOP1 { background-color: #FF6969 }
 .results-table-container .results-table .Dem5 { background-color: #5696FF } /* special elections */

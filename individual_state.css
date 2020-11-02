@@ -52,12 +52,7 @@ svg.nationalGeneral .path.path-S.uncalled.PartyDem { fill: #a8c8fd }
 h2.state-headline { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 700; color: #242424; margin: .5em 0; font-size: 1.2em }
 @media screen and (min-width:580px) { h2.state-headline { font-size: 1.7em } }
 
-.other-races { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 400; font-size: 1em; margin-top: 0; margin-bottom: 1.5em }
-.other-races .other-races-group { margin-right: .4em }
-@media screen and (min-width:580px) { .other-races .other-races-group { display: inline-block } }
-.other-races .other-races-group .label { opacity: .6 }
-.other-races .other-races-group .link { margin: 0 .2em }
-.other-races .other-races-group .link a { color: #666 }
+.other-races { display: none }
 
 svg .city text { font-size: 1em; font-weight: 400 }
 svg.nationalGeneral .path.path-C.biden, svg.nationalGeneral .path.path-P.biden { fill: #2D8DFF }

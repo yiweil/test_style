@@ -64,7 +64,7 @@ svg.nationalGeneral .path.path-C.trump, svg.nationalGeneral .path.path-P.trump {
 .results-table-container .results-table thead { width: 100%; font-size: .8em; color: #9b9b9b; text-transform: uppercase; vertical-align: middle; background-color: #fafafa }
 .results-table-container .results-table .biden { background-color: #5696FF }
 .results-table-container .results-table .trump { background-color: #FF6969 }
-.results-table-container .results-table tr.candidate:not(.winner)~tr.candidate>td { padding-top: .8em; padding-left: .4em }
+.results-table-container .results-table tr.candidate:not(.winner)~tr.candidate>td { padding-top: .8em; padding-left: .6em; padding-right: .6em}
 .results-table-container .results-table td, .results-table-container .results-table th { padding-bottom: .6em }
 .results-table-container .results-table tr.candidate:not(.winner)>td { padding-top: .8em }
 .results-table-container .results-table td.candidate, .results-table-container .results-table th.candidate { text-align: left; padding-left: .4em }

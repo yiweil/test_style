@@ -1,0 +1,123 @@
+.watermark { background: none }
+body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa; margin: 0; padding: 0 }
+
+.mast .ap-logo { margin-right: 0em; height: 0em; width: 0em; background-image: url(https://static.particlenews.com/m/static/imgs/logo.png); background-size: 100% }
+.race-top-lines .party-select.Dem { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
+.race-top-lines .party-select.Dem:after { content: "DEMOCRAT"; color: #5696FF }
+.race-top-lines .party-select.Dem.selected { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #5696FF; border: 1px solid #5696FF }
+.party-select .Dem { padding: .25em .2em .1em; font-size: .65em; font-weight: 900; background-color: #5696FF; border: 1px solid #5696FF; display: inline-block; margin: 0 1em }
+.party-select .Dem.inactive { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
+.party-select .Dem.inactive:after { content: "DEMOCRAT"; color: #5f9ace }
+
+.nav .bop-summary { position: relative; display: block; width: 3.5em; margin: 0 auto; padding: .1em .3em; border-radius: .8em; text-align: center; font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em }
+.nav .bop-summary>.dem { color: #5696FF }
+.nav .bop-summary>.gop { color: #FF6969 }
+.office-nav { padding: 0; display: flex; justify-content: center; font-family: Roboto,Helvetica,Arial,sans-serif; list-style-type: none; position: relative; margin-top: 1.2em; margin-bottom: 1.4 }
+.office-nav .nav { margin-right: .5em }
+.office-nav .nav-button { display: flex; margin-right: .5em; justify-content: center; cursor: pointer }
+.office-nav .nav-button .label { opacity: .5 }
+.office-nav .nav-button .label>:link { color: #000; text-decoration: none }
+.office-nav .nav-button.selected .label { opacity: 1 }
+.office-nav .nav-button .nav-label { display: flex }
+.office-nav .nav-button>div { font-size: 0.9em; font-weight: 800 }
+.office-nav .nav-button .nav-label .dropdown-caret { float: right; content: ""; display: block; width: 0; height: 0; -moz-transform: scale(.9999); border-color: #aaa transparent transparent; border-style: solid; border-width: .3em .3em 0; margin-left: .2em; margin-top: .4em }
+.office-nav .nav-button .nav-label .dropdown-caret.bop { display: none }
+@media screen and (min-width:580px) { .office-nav .nav-button>div { font-size: 1em } }
+.office-nav .office-list { text-transform: none; max-height: 19.5em; margin-top: 2em; z-index: 10; background-color: #fff; padding: .8em; list-style-type: none; position: absolute; overflow: auto; font-size: 1em; line-height: 2.6em; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2) }
+.office-nav .office-list>.inactive { color: #bbb; font-weight: 400 }
+.office-nav .office-list>.active a { text-decoration: none; color: #333; font-weight: 400 }
+
+.bop .count.dem { color: #5696FF }
+.bop .count.gop { color: #FF6969 }
+
+.bop .bop-tooltip { box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.1); border-radius: .4em }
+.bop .bop-tooltip>.state { font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em }
+.bop .bop-tooltip>.dem { color: #5696FF }
+.bop .bop-tooltip>.gop { color: #FF6969 }
+
+.bop .bar { clear: both; width: 100%; height: 1em; cursor: pointer; border: none; background-color: #fff; border-bottom: 1px solid #ddd }
+.bop .bar .hover { opacity: .6 }
+.bop .bar .dem { float: left; height: 100%; background-color: #5696FF }
+.bop .bar .divider { height: 1.5em; border-left: 2px solid #000; position: absolute; width: 1px; margin-top: -.2em; left: 50% }
+.bop .bar .majority { text-align: center; font-size: .8em; height: 1.2em; position: absolute; width: 13.8em; color: #000; margin-top: -3em; line-height: 1.2em; left: calc(50% - 7em); text-transform: uppercase }
+.bop .bar .gop { float: right; height: 100%; background-color: #FF6969 }
+
+.map-legend .PartyDem { background-color: #5696FF }
+.map-legend .PartyGOP { background-color: #FF6969 }
+.map-legend.national-general { font-family: Roboto,Helvetica,Arial,sans-serif }
+.map-legend.national-general .legend-section .legend-section-items .legend-item .legend-swatch.winner.PartyDem { background-color: #5696FF }
+.map-legend.national-general .legend-section .legend-section-items .legend-item .legend-swatch.winner.PartyGOP { background-color: #FF6969 }
+.map-legend.national-general .legend-section .legend-section-items .legend-item .legend-swatch.uncalled.PartyDem { background-color: #a8c8fd }
+.map-legend.national-general .legend-section .legend-section-items .legend-item .legend-swatch.uncalled.PartyGOP { background-color: #FCC0C0 }
+svg .biden { fill: #5696FF }
+svg .trump { fill: #FF6969 }
+svg .PartyDem { fill: #5696FF }
+svg .PartyGOP { fill: #FF6969 }
+svg.nationalGeneral .path.path-S.winner.PartyGOP { fill: #FF6969 }
+svg.nationalGeneral .path.path-S.uncalled.PartyGOP { fill: #FCC0C0 }
+svg.nationalGeneral .path.path-S.winner.PartyDem { fill: #5696FF }
+svg.nationalGeneral .path.path-S.uncalled.PartyDem { fill: #a8c8fd }
+.results-table .PartyDem, .state-results-block-table .PartyDem { background-color: #5696FF }
+.results-table .PartyGOP, .state-results-block-table .PartyGOP { background-color: #FF6969 }
+
+h2.state-headline { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 700; color: #242424; margin: .5em 0; font-size: 1.2em }
+@media screen and (min-width:580px) { h2.state-headline { font-size: 1.7em } }
+
+.other-races { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 400; font-size: 1em; margin-top: 0; margin-bottom: 1.5em }
+.other-races .other-races-group { margin-right: .4em }
+@media screen and (min-width:580px) { .other-races .other-races-group { display: inline-block } }
+.other-races .other-races-group .label { opacity: .6 }
+.other-races .other-races-group .link { margin: 0 .2em }
+.other-races .other-races-group .link a { color: #666 }
+
+svg .city text { font-size: 1em; font-weight: 400 }
+svg.nationalGeneral .path.path-C.biden, svg.nationalGeneral .path.path-P.biden { fill: #2D8DFF }
+svg.nationalGeneral .path.path-C.trump, svg.nationalGeneral .path.path-P.trump { fill: #EF3636 }
+
+.ev-available { color: #242424; margin-bottom: 1em; font-size: 1em; font-weight: 600 }
+.results-table-container .results-table td, .results-table-container .results-table th { padding-top: .8em; padding-bottom: .8em }
+.results-table-container .results-table { background-color: #fff; font-size: 1em }
+.results-table-container .results-table thead { width: 100%; font-size: .8em; color: #9b9b9b; text-transform: uppercase; vertical-align: middle; background-color: #fafafa }
+.results-table-container .results-table .biden { background-color: #5696FF }
+.results-table-container .results-table .trump { background-color: #FF6969 }
+.results-table-container .results-table tr.candidate:not(.winner)~tr.candidate>td { padding-top: .8em }
+.results-table-container .results-table td, .results-table-container .results-table th { padding-bottom: .6em }
+.results-table-container .results-table tr.candidate:not(.winner)>td { padding-top: .8em }
+.results-table-container .results-table td.candidate, .results-table-container .results-table th.candidate { text-align: left; padding-left: .4em }
+.results-table-container .results-table td.vote-count, .results-table-container .results-table td.vote-percent, .results-table-container .results-table th.vote-count, .results-table-container .results-table th.vote-percent { text-align: right; padding-left: .6em; padding-right: .6em }
+.results-table-container .results-notes .results-note { background-color: #fafafa; margin-top: .6em }
+
+.expected-vote-summary .expected-vote-chatter { text-align: left; font-size: .82rem; font-style: italic; color: #999; visibility: hidden }
+
+.custom-select__value-container { width: 14em; height: 2.1em }
+.select-boundary { margin-right: .4em }
+svg.nationalGeneral .path.path-S.runoff { fill: #b283ff }
+svg.nationalGeneral .path.path-C.Dem1, svg.nationalGeneral .path.path-P.Dem1 { fill: #5696FF }
+svg.nationalGeneral .path.path-C.GOP1, svg.nationalGeneral .path.path-P.GOP1 { fill: #FF6969 }
+svg.nationalGeneral .path.path-C.Dem1, svg.nationalGeneral .path.path-P.Dem5 { fill: #5696FF } /* special elections */
+svg.nationalGeneral .path.path-C.GOP5, svg.nationalGeneral .path.path-P.GOP5 { fill: #FF6969 } /* special elections */
+svg.nationalGeneral .path.path-C.Dem6, svg.nationalGeneral .path.path-P.Dem6 { fill: #5696FF } /* special elections */
+svg.nationalGeneral .path.path-C.GOP5, svg.nationalGeneral .path.path-P.GOP6 { fill: #FF6969 } /* special elections */
+
+.results-table-container .results-table .Dem1 { background-color: #5696FF }
+.results-table-container .results-table .GOP1 { background-color: #FF6969 }
+.results-table-container .results-table .Dem5 { background-color: #5696FF } /* special elections */
+.results-table-container .results-table .GOP5 { background-color: #FF6969 } /* special elections */
+.results-table-container .results-table .Dem6 { background-color: #5696FF } /* special elections */
+.results-table-container .results-table .GOP6 { background-color: #FF6969 } /* special elections */
+.results-tooltip-content { background-color: #fafafa; padding: .8em; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); border-radius: .6em }
+.results-tooltip-content .main-tooltip-content .tooltip-label { color: #242424; opacity: 1}
+
+.results-table .PartyGOP, .state-results-block-table .PartyGOP { background-color: #ffbdbd }
+.results-table .PartyGOP, .state-results-block-table .PartyDem { background-color: #BAD4FF }
+.race-chips .PartyGOP { border-color: #FF6969 }
+.race-chips .PartyDem { border-color: #5696FF }
+.race-chips { font-size: 1em }
+
+/* Initiatives */
+svg.nationalGeneral .path.path-C.other2, svg.nationalGeneral .path.path-P.other2 { fill: #FFABAB }
+svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1 { fill: #5DC754 }
+.results-table-container .results-table .other1 { background-color: #5DC754 }
+.results-table-container .results-table .other2 { background-color: #FFABAB }
+.race-title { font-weight: 600 }
+.state-results-block .race-description { margin-top: .8em; line-height: 1.4em }

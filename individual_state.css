@@ -124,4 +124,4 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
 
 
 /* Hide office nav */
-.office-nav { display: none; }
+.office-nav { visibility: hidden }

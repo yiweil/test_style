@@ -1,6 +1,7 @@
 .watermark { background: none }
 body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa; margin: 0; padding: 0 }
 
+.mast { display: none }
 .mast .ap-logo { margin-right: 0em; height: 0em; width: 0em; background-image: url(https://static.particlenews.com/m/static/imgs/logo.png); background-size: 100% }
 .race-top-lines .party-select.Dem { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
 .race-top-lines .party-select.Dem:after { content: "DEMOCRAT"; color: #5696FF }
@@ -12,7 +13,7 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 .nav .bop-summary { position: relative; display: block; width: 3.5em; margin: 0 auto; padding: .1em .3em; border-radius: .8em; text-align: center; font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em }
 .nav .bop-summary>.dem { color: #5696FF }
 .nav .bop-summary>.gop { color: #FF6969 }
-.office-nav { padding: 0; display: flex; justify-content: center; font-family: Roboto,Helvetica,Arial,sans-serif; list-style-type: none; position: relative; margin-top: 1.2em; margin-bottom: 1.4 }
+.office-nav { padding: 0; display: none; justify-content: center; font-family: Roboto,Helvetica,Arial,sans-serif; list-style-type: none; position: relative; margin-top: 1.2em; margin-bottom: 1.4 }
 .office-nav .nav { margin-right: .5em }
 .office-nav .nav-button { display: flex; margin-right: .5em; justify-content: center; cursor: pointer }
 .office-nav .nav-button .label { opacity: .5 }
@@ -121,7 +122,3 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
 .results-table-container .results-table .other2 { background-color: #FFABAB }
 .race-title { font-weight: 600 }
 .state-results-block .race-description { margin-top: .8em; line-height: 1.4em }
-
-
-/* Hide office nav */
-.office-nav { display:none }

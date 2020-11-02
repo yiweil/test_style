@@ -87,7 +87,7 @@ svg.nationalGeneral .path.path-C.trump, svg.nationalGeneral .path.path-P.trump {
 .results-table-container .results-table td.vote-count, .results-table-container .results-table td.vote-percent, .results-table-container .results-table th.vote-count, .results-table-container .results-table th.vote-percent { text-align: right; padding-left: .6em; padding-right: .6em }
 .results-table-container .results-notes .results-note { background-color: #fafafa; margin-top: .6em }
 
-.expected-vote-summary .expected-vote-chatter { text-align: left; font-size: .82rem; font-style: italic; color: #999; visibility: hidden }
+.expected-vote-summary .expected-vote-chatter { text-align: left; font-size: .82rem; font-style: italic; color: #999; display:none }
 
 .custom-select__value-container { width: 14em; height: 2.1em }
 .select-boundary { margin-right: .4em }

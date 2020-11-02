@@ -107,3 +107,5 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
 .results-table-container .results-table .other2 { background-color: #FFABAB }
 .race-title { font-weight: 600 }
 .state-results-block .race-description { margin-top: .8em; line-height: 1.4em }
+
+.results-table-container .results-table tr.candidate:not(.winner):first-child > td { padding: 0.4em }

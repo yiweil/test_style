@@ -127,6 +127,8 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
   .office-nav { padding: .8em; background-color: #eee; border-radius: .4em }
   .bop { margin-top: 1.4em }
   .bop .bar .majority { font-size: .7em; text-transform: none; }
+  .bop .count { font-size: 2em }
+  .bop .art { width: 2.6em; height: 3em; margin-top: none }
   .map-legend.national-general { margin-bottom: 1.6em; font-size: .7em }
   h2.state-headline { font-size: 1.2em }
 }

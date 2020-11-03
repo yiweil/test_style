@@ -125,8 +125,9 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
 @media screen and (max-width:414px) {
   .office-nav .nav-button>div { font-size: .8em }
   .office-nav { padding: .8em; background-color: #eee; border-radius: .4em }
-  .bop { margin-bottom: 1.4em }
+  .bop { margin-top: 1.4em }
   .bop .bar .majority { font-size: .7em; text-transform: none; }
+  .map-legend.national-general { margin-bottom: 1.6em; font-size: .7em }
   h2.state-headline { font-size: 1.2em }
 }
 

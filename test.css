@@ -43,6 +43,7 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 .bop .bar .majority { text-align: center; font-size: .8em; height: 1.2em; position: absolute; width: 13.8em; color: #000; margin-top: -3em; line-height: 1.2em; left: calc(50% - 7em); text-transform: uppercase }
 .bop .bar .gop { float: right; height: 100%; background-color: #FF6969 }
 .bop .art { margin-top: none }
+.bop .other.asterisk { display: none }
 
 .map-legend .PartyDem { background-color: #5696FF }
 .map-legend .PartyGOP { background-color: #FF6969 }

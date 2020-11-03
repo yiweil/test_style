@@ -42,6 +42,7 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 .bop .bar .divider { height: 1.5em; border-left: 2px solid #000; position: absolute; width: 1px; margin-top: -.2em; left: 50% }
 .bop .bar .majority { text-align: center; font-size: .8em; height: 1.2em; position: absolute; width: 13.8em; color: #000; margin-top: -3em; line-height: 1.2em; left: calc(50% - 7em); text-transform: uppercase }
 .bop .bar .gop { float: right; height: 100%; background-color: #FF6969 }
+.bop .art { margin-top: none }
 
 .map-legend .PartyDem { background-color: #5696FF }
 .map-legend .PartyGOP { background-color: #FF6969 }
@@ -128,7 +129,7 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
   .bop { margin-top: 1.4em }
   .bop .bar .majority { font-size: .7em; text-transform: none; }
   .bop .count { font-size: 2em }
-  .bop .art { width: 2.6em; height: 3em; margin-top: none }
+  .bop .art { width: 2.6em; height: 3em }
   .map-legend.national-general { margin-bottom: 1.6em; font-size: .7em }
   h2.state-headline { font-size: 1.2em }
 }

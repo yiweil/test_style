@@ -127,12 +127,14 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
 @media screen and (max-width:414px) {
   .office-nav .nav-button>div { font-size: .8em }
   .office-nav { padding: .8em; background-color: #eee; border-radius: .4em }
+  .nav .bop-summary { margin: 0 0 .4em 0; padding: 0; border: 0; text-align: left }
   .bop { margin-top: 1.4em }
   .bop .bar .majority { font-size: .7em; text-transform: none; }
   .bop .count { font-size: 2em }
   .bop .art { width: 2.6em; height: 3em }
   .map-legend.national-general { margin-bottom: 1.6em; font-size: .7em }
   h2.state-headline { font-size: 1.2em }
+  .office-nav .office-list { max-height: 20em; font-size: .85em }
 }
 
 /* Viewports 768 and up */

@@ -139,6 +139,7 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
   .race-title { margin-top: 1.6em }
   .other-races { font-size: .85em }
   .bop .other-wrapper { font-size: .85em }
+  .map-state { margin-bottom: 1em }
 }
 
 /* Viewports 768 and up */

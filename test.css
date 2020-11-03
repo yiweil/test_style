@@ -67,10 +67,10 @@ svg.nationalGeneral .path.path-S.uncalled.PartyDem { fill: #a8c8fd }
 h2.state-headline { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 700; color: #242424; margin: .5em 0; font-size: 1.7em }
 
 .other-races { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 400; font-size: 1em; margin-top: 0; margin-bottom: 1.5em }
-.other-races .other-races-group { margin-right: .4em; display: inline-block }
+.other-races .other-races-group { margin-right: .4em; margin-top: .8em; display: inline-block }
 .other-races .other-races-group .label { opacity: 1 }
 .other-races .other-races-group .link { margin: 0 .2em }
-.other-races .other-races-group .link a { color: grey }
+.other-races .other-races-group .link a { color: #017EF9 }
 
 svg .city text { font-size: 1em; font-weight: 400 }
 svg.nationalGeneral .path.path-C.biden, svg.nationalGeneral .path.path-P.biden { fill: #2D8DFF }

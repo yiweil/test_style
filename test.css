@@ -1,6 +1,6 @@
 .watermark { background: none }
 body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa; margin: 0; padding: 0 }
-
+#elections-widget { background: #fafafa }
 .mast { display: none }
 .mast .ap-logo { margin-right: 0em; height: 0em; width: 0em; background-image: url(https://static.particlenews.com/m/static/imgs/logo.png); background-size: 100% }
 .race-top-lines .party-select.Dem { padding: .25em .2em .1em; font-size: .65em; display: inline-block; font-weight: 900; background-color: #fff; border: 1px solid #5696FF }
@@ -13,7 +13,7 @@ body { font-family: Roboto,Helvetica,Arial,sans-serif; background-color: #fafafa
 .nav .bop-summary { position: relative; display: block; width: 3.5em; margin: 0 auto; padding: .1em .3em; border-radius: .8em; text-align: center; font-family: Roboto,Helvetica,Arial,sans-serif; font-size: .9em }
 .nav .bop-summary>.dem { color: #5696FF }
 .nav .bop-summary>.gop { color: #FF6969 }
-.office-nav { padding: 0; display: flex; justify-content: center; font-family: Roboto,Helvetica,Arial,sans-serif; list-style-type: none; position: relative; margin-top: 1.2em; margin-bottom: 1.4 }
+.office-nav { padding: 0; display: flex; justify-content: center; font-family: Roboto,Helvetica,Arial,sans-serif; list-style-type: none; position: relative; margin-bottom: 1.4; text-transform: none }
 .office-nav .nav { margin-right: .5em }
 .office-nav .nav-button { display: flex; margin-right: .5em; justify-content: center; cursor: pointer }
 .office-nav .nav-button .label { opacity: .5 }
@@ -124,6 +124,8 @@ svg.nationalGeneral .path.path-C.other1, svg.nationalGeneral .path.path-P.other1
 /* Viewports 414 or less */
 @media screen and (max-width:414px) {
   .office-nav .nav-button>div { font-size: .8em }
+  .office-nav { padding: .8em; background-color: #eee; border-radius: .4em }
+  .bop { margin-bottom: 1.4em }
   .bop .bar .majority { font-size: .7em; text-transform: none; }
   h2.state-headline { font-size: 1.2em }
 }

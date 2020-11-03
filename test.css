@@ -61,6 +61,7 @@ svg.nationalGeneral .path.path-S.winner.PartyDem { fill: #5696FF }
 svg.nationalGeneral .path.path-S.uncalled.PartyDem { fill: #a8c8fd }
 .results-table .PartyDem, .state-results-block-table .PartyDem { background-color: #5696FF }
 .results-table .PartyGOP, .state-results-block-table .PartyGOP { background-color: #FF6969 }
+.expected-vote-summary .expected-vote-chatter { display: contents; font-size: .7em; margin: 1.6em 0 }
 
 h2.state-headline { font-family: Roboto,Helvetica,Arial,sans-serif; font-weight: 700; color: #242424; margin: .5em 0; font-size: 1.7em }
 
